@@ -15,7 +15,8 @@ Follow these instructions to set up and run the project locally.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/username/frontend-test-styling.git
+   git clone
+   https://github.com/JoelBVargas/Buzzvel-FE-TEST-2024
    cd frontend-test-styling
 
 2. Install project dependencies:
