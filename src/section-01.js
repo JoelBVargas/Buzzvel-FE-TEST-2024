@@ -1,3 +1,4 @@
+import { ArrowRightIcon } from "@heroicons/react/24/solid";
 export function Section01() {
   return (
     <section className="flex flex-col gap-16 md:ml-20">
@@ -16,8 +17,10 @@ export function Section01() {
           Viverra viverra nibh enim et aliquam, enim. Tempor,sit mus viverra
           orci dui consequat turpis scelerisque.
         </span>
-        <button className="mx-auto mt-6 h-16 w-[306px] rounded-[100px] border-2 border-[#581C87] text-[24px] font-bold leading-6 text-[#581C87] transition delay-150 duration-300 hover:bg-[#581C87] hover:text-[#FCD34D] hover:delay-150 md:mb-0">
+
+        <button className="group mt-6 flex h-16 w-[306px] items-center rounded-[100px] border-2 border-[#581C87] pl-12 text-[24px] font-bold leading-6 text-[#581C87] transition delay-150 duration-300 hover:bg-[#581C87] hover:text-yellowCusto-0 hover:delay-150 md:mb-0">
           Request a Quote
+          <ArrowRightIcon className="mx-auto my-auto h-6 w-6 text-purpleCustom-0 transition-colors duration-300 group-hover:text-yellowCusto-0" />
         </button>
       </div>
       <div className="mx-4 mb-12 md:mx-0 md:h-[138px] md:w-[600px]">

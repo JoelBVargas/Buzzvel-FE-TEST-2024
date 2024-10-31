@@ -1,7 +1,7 @@
 export function Section04() {
   return (
-    <div className="pt-12">
-      <div className="my-auto md:w-[1180px]">
+    <div className="pt-12 md:flex md:h-[1080px] md:items-center">
+      <div className="my-auto md:ml-20 md:mt-20 md:w-[1180px]">
         <div className="mx-4 mb-16 flex flex-col items-center text-center md:items-start">
           <span className="mb-2 font-medium leading-[17.6px] text-orangeCustom-0 md:text-[20px] md:leading-[22px]">
             Services
@@ -37,11 +37,11 @@ export function Section04() {
 
       <figure className="flex h-[523px] w-[599px] items-center">
         <img
-          className="absolute right-0 mb-24 h-[523px] transform md:static"
+          className="absolute right-0 mb-24 h-[523px] transform md:h-[1000px]"
           srcSet="/images/yellow-rectangle.png"
         />
         <img
-          className="absolute left-1/2 h-[523px] -translate-x-1/2 transform md:static md:left-auto md:right-0 md:-translate-x-0"
+          className="absolute left-1/2 h-[523px] -translate-x-1/2 transform md:left-auto md:right-0 md:h-[900px] md:-translate-x-0"
           srcSet="/images/mobile-02.png"
           alt="cellphone"
         />
